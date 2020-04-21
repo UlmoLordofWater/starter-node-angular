@@ -85,8 +85,8 @@ function sshConnect() {
   ssh
     .connect({
       // TODO: ADD YOUR IP ADDRESS BELOW (e.g. '12.34.5.67')
-      host: '',
-      username: '3.92.194.16',
+      host: '3.92.194.16',
+      username: 'ubuntu',
       privateKey: 'nodeangular-key.ppk'
     })
     .then(function() {
